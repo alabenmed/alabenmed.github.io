@@ -1,0 +1,17 @@
+.ala{
+    text-decoration: none !important;
+}
+body{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 200px;
+}
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: beige;
+    border-bottom: 2px solid black;
+
+}
