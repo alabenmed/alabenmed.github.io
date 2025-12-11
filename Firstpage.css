@@ -32,7 +32,7 @@ header ul {
 }
 
 header a:hover {
-    color: rgb(255, 0, 0);
+    color: silver;
     text-decoration: underline;
 }
 header li {
@@ -120,5 +120,5 @@ footer {
         color: rgb(10, 102, 194);
     }
     .icons a:hover .fa-github {
-        color: grey;
+        color: rgba(128, 128, 128, 0.418);
     }
