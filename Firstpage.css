@@ -1,0 +1,54 @@
+    body { 
+        background-image: url('');
+        background-position: center;
+    }
+header {
+    height: 60px;
+    padding: 0 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color:black;
+}
+header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header div {
+    margin-right: 80px;
+    float: right;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+header a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+header li {
+
+    font-style: italic;
+}
+
+section p {
+    float: left;
+}
+
+section img {
+    float: right;
+
+}
+
+#logo {
+    height: 50px;
+    width: 160px;
+    margin-top: 4px;
+    margin-left: -32px;
+}
