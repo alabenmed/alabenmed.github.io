@@ -1,6 +1,9 @@
     body { 
-        background-image: url('');
+        background-image: url("pictures/aakash-dhage-we_CXP-7_ws-unsplash.jpg");
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;    
     }
 header {
     height: 60px;
@@ -52,3 +55,45 @@ section img {
     margin-top: 4px;
     margin-left: -32px;
 }
+#photo {
+      width: 350px;
+        height: auto;
+        float: right;
+        margin-top: 200px;
+        margin-right: 40px;
+        transition: transform 0.3s ease,
+}
+h1 {
+    font-size:36px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.h {
+    margin-left: 119px;
+    margin-top: 114px;
+}
+
+footer {
+        height: 60px;
+        width: 100%;
+        background: rgb(17, 3, 58);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .icons a {
+        font-size: 40px;
+        margin: 0 30px;
+        color: bisque;
+        text-decoration: none;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+    
+    .icons a:hover {
+        transform: scale(1.2);
+    }
