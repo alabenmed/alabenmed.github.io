@@ -1,5 +1,5 @@
     body { 
-        background-image: url("pictures/pawel-czerwinski-udRTuYZKEVc-unsplash.jpg");
+        background-image: url("pictures/pexels-njeromin-12129379.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -32,7 +32,7 @@ header ul {
 }
 
 header a:hover {
-    color: rgb(196, 221, 255);
+    color: rgb(255, 0, 127);
     text-decoration: underline;
 }
 header li {
@@ -60,7 +60,7 @@ section img {
         height: auto;
         float: right;
         margin-top: -250px;
-        margin-right: 72px;
+        margin-right: 100px;
         transition: transform 0.3s ease,
 }
 h1 {
@@ -73,7 +73,7 @@ h1 {
 
 h2 {
     margin-top: 10px;
-    width: 500px;
+    width: 700px;
     font-size:24px;
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -99,11 +99,23 @@ footer {
     .icons a {
         font-size: 40px;
         margin: 0 30px;
-        color: rgb(196, 221, 255);
+        color: rgb(200, 200, 200);
         text-decoration: none;
         transition: transform 0.3s ease, color 0.3s ease;
     }
     
     .icons a:hover {
         transform: scale(1.2);
+    }
+    .icons a:hover .fa-facebook {
+        color: rgb(24, 119, 242);
+    }
+    .icons a:hover .fa-whatsapp {
+        color: rgb(37, 211, 102);
+    }
+    .icons a:hover .fa-instagram {
+        color: rgb(225, 48, 108);
+    }
+    .icons a:hover .fa-linkedin {
+        color: rgb(10, 102, 194);
     }
