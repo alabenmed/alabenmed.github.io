@@ -119,3 +119,6 @@ footer {
     .icons a:hover .fa-linkedin {
         color: rgb(10, 102, 194);
     }
+    .icons a:hover .fa-github {
+        color: rgb(0, 0, 0);
+    }
